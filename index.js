@@ -10,7 +10,7 @@ const questions = [
         type: 'input',
         message: "GitHub Username?",
         name: 'username',
-        default: 'papa-sean-dev',
+        default: 'Papa-Sean',
         validate: function (answer){
             if (answer.length < 1){
                 return console.log("GitHub username required");
