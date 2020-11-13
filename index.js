@@ -45,6 +45,18 @@ const questions = [
 
     },
     {
+        type: 'input',
+        message: "Project Description",
+        name: 'description',
+        default: 'Project Description',
+        validate: function (answer){
+            if (answer.length <1){
+                return console.log("Project description required");
+            }
+            return true;
+        }
+    },
+    {
         
     }
 ]
