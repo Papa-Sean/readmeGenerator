@@ -19,6 +19,19 @@ const questions = [
         }
     },
     {
+        type: 'input',
+        message: "Name your GitHub repo",
+        name: 'repo',
+        default: 'readmeGenerator',
+        validate: function (answer){
+            if (answer.length <1){
+                return console.log("Valid GitHub repo required");
+            }
+            return true;
+        }
+
+    },
+    {
         
     }
 ]
