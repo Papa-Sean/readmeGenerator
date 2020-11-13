@@ -32,6 +32,19 @@ const questions = [
 
     },
     {
+        type: 'input',
+        message: "Project Title",
+        name: 'title',
+        default: 'Project Title',
+        validate: function (answer){
+            if(answer.length < 1){
+                return console.log("Project Title Required");
+            }
+            return true;
+        }
+
+    },
+    {
         
     }
 ]
