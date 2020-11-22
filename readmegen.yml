@@ -1,0 +1,1357 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/seansugrue/readmeGenerator
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 80
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 24
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 387
+    content: "\r\nThe default interactive shell is now zsh.\r\nTo update your account to use zsh, please run `chsh -s /bin/zsh`.\r\nFor more details, please visit https://support.apple.com/kb/HT208050.\r\n"
+  - delay: 5
+    content: "\e]7;file://Seans-MacBook-Pro.local/Users/seansugrue/readmeGenerator\a\e[?1034hSeans-MacBook-Pro:readmeGenerator seansugrue$ "
+  - delay: 8048
+    content: 'n'
+  - delay: 93
+    content: o
+  - delay: 204
+    content: d
+  - delay: 214
+    content: e
+  - delay: 677
+    content: ' '
+  - delay: 180
+    content: i
+  - delay: 143
+    content: 'n'
+  - delay: 228
+    content: d
+  - delay: 181
+    content: e
+  - delay: 331
+    content: x
+  - delay: 202
+    content: .
+  - delay: 303
+    content: j
+  - delay: 230
+    content: s
+  - delay: 186
+    content: "\r\n"
+  - delay: 375
+    content: "\e[32m?\e[39m \e[1mWhat is your GitHub username? (No @ needed)\e[22m\e[0m \e[0m\e[2m(Papa-Sean) \e[22m\e[58D\e[58C"
+  - delay: 3507
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your GitHub username? (No @ needed)\e[22m\e[0m \e[0mP\e[47D\e[47C"
+  - delay: 380
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your GitHub username? (No @ needed)\e[22m\e[0m \e[0mPa\e[48D\e[48C"
+  - delay: 104
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your GitHub username? (No @ needed)\e[22m\e[0m \e[0mPap\e[49D\e[49C"
+  - delay: 109
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your GitHub username? (No @ needed)\e[22m\e[0m \e[0mPapa\e[50D\e[50C"
+  - delay: 939
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your GitHub username? (No @ needed)\e[22m\e[0m \e[0mPapa-\e[51D\e[51C"
+  - delay: 314
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your GitHub username? (No @ needed)\e[22m\e[0m \e[0mPapa-S\e[52D\e[52C"
+  - delay: 163
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your GitHub username? (No @ needed)\e[22m\e[0m \e[0mPapa-Se\e[53D\e[53C"
+  - delay: 91
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your GitHub username? (No @ needed)\e[22m\e[0m \e[0mPapa-Sea\e[54D\e[54C"
+  - delay: 108
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your GitHub username? (No @ needed)\e[22m\e[0m \e[0mPapa-Sean\e[55D\e[55C"
+  - delay: 260
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your GitHub username? (No @ needed)\e[22m\e[0m \e[0m\e[36mPapa-Sean\e[39m\e[55D\e[55C\r\n\e[32m?\e[39m \e[1mWhat is the name of your GitHub repo?\e[22m\e[0m \e[0m\e[2m(readmeGenerator) \e[22m\e[58D\e[58C"
+  - delay: 1022
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the name of your GitHub repo?\e[22m\e[0m \e[0mr\e[41D\e[41C"
+  - delay: 103
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the name of your GitHub repo?\e[22m\e[0m \e[0mre\e[42D\e[42C"
+  - delay: 127
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the name of your GitHub repo?\e[22m\e[0m \e[0mrea\e[43D\e[43C"
+  - delay: 173
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the name of your GitHub repo?\e[22m\e[0m \e[0mread\e[44D\e[44C"
+  - delay: 454
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the name of your GitHub repo?\e[22m\e[0m \e[0mreadm\e[45D\e[45C"
+  - delay: 150
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the name of your GitHub repo?\e[22m\e[0m \e[0mreadme\e[46D\e[46C"
+  - delay: 844
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the name of your GitHub repo?\e[22m\e[0m \e[0mreadmeG\e[47D\e[47C"
+  - delay: 186
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the name of your GitHub repo?\e[22m\e[0m \e[0mreadmeGe\e[48D\e[48C"
+  - delay: 122
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the name of your GitHub repo?\e[22m\e[0m \e[0mreadmeGen\e[49D\e[49C"
+  - delay: 92
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the name of your GitHub repo?\e[22m\e[0m \e[0mreadmeGene\e[50D\e[50C"
+  - delay: 169
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the name of your GitHub repo?\e[22m\e[0m \e[0mreadmeGener\e[51D\e[51C"
+  - delay: 226
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the name of your GitHub repo?\e[22m\e[0m \e[0mreadmeGenera\e[52D\e[52C"
+  - delay: 304
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the name of your GitHub repo?\e[22m\e[0m \e[0mreadmeGenerat\e[53D\e[53C"
+  - delay: 102
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the name of your GitHub repo?\e[22m\e[0m \e[0mreadmeGenerato\e[54D\e[54C"
+  - delay: 210
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the name of your GitHub repo?\e[22m\e[0m \e[0mreadmeGenerator\e[55D\e[55C"
+  - delay: 206
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the name of your GitHub repo?\e[22m\e[0m \e[0m\e[36mreadmeGenerator\e[39m\e[55D\e[55C\r\n\e[32m?\e[39m \e[1mWhat is the title of your project?\e[22m\e[0m \e[0m\e[2m(Project Title) \e[22m\e[53D\e[53C"
+  - delay: 3718
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the title of your project?\e[22m\e[0m \e[0mR\e[38D\e[38C"
+  - delay: 401
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the title of your project?\e[22m\e[0m \e[0mRE\e[39D\e[39C"
+  - delay: 319
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the title of your project?\e[22m\e[0m \e[0mREA\e[40D\e[40C"
+  - delay: 272
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the title of your project?\e[22m\e[0m \e[0mREAD\e[41D\e[41C"
+  - delay: 2591
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the title of your project?\e[22m\e[0m \e[0mREADM\e[42D\e[42C"
+  - delay: 680
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the title of your project?\e[22m\e[0m \e[0mREADME\e[43D\e[43C"
+  - delay: 924
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the title of your project?\e[22m\e[0m \e[0mREADME.\e[44D\e[44C"
+  - delay: 1087
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the title of your project?\e[22m\e[0m \e[0mREADME.m\e[45D\e[45C"
+  - delay: 182
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the title of your project?\e[22m\e[0m \e[0mREADME.md\e[46D\e[46C"
+  - delay: 481
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the title of your project?\e[22m\e[0m \e[0mREADME.md \e[47D\e[47C"
+  - delay: 718
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the title of your project?\e[22m\e[0m \e[0mREADME.md G\e[48D\e[48C"
+  - delay: 372
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the title of your project?\e[22m\e[0m \e[0mREADME.md Ge\e[49D\e[49C"
+  - delay: 760
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the title of your project?\e[22m\e[0m \e[0mREADME.md Gen\e[50D\e[50C"
+  - delay: 225
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the title of your project?\e[22m\e[0m \e[0mREADME.md Gene\e[51D\e[51C"
+  - delay: 116
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the title of your project?\e[22m\e[0m \e[0mREADME.md Gener\e[52D\e[52C"
+  - delay: 344
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the title of your project?\e[22m\e[0m \e[0mREADME.md Genera\e[53D\e[53C"
+  - delay: 493
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the title of your project?\e[22m\e[0m \e[0mREADME.md Generat\e[54D\e[54C"
+  - delay: 128
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the title of your project?\e[22m\e[0m \e[0mREADME.md Generato\e[55D\e[55C"
+  - delay: 227
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the title of your project?\e[22m\e[0m \e[0mREADME.md Generator\e[56D\e[56C"
+  - delay: 225
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the title of your project?\e[22m\e[0m \e[0mREADME.md Generator \e[57D\e[57C"
+  - delay: 366
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the title of your project?\e[22m\e[0m \e[0mREADME.md Generator C\e[58D\e[58C"
+  - delay: 103
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the title of your project?\e[22m\e[0m \e[0mREADME.md Generator CL\e[59D\e[59C"
+  - delay: 187
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the title of your project?\e[22m\e[0m \e[0mREADME.md Generator CLI\e[60D\e[60C"
+  - delay: 591
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the title of your project?\e[22m\e[0m \e[0m\e[36mREADME.md Generator CLI\e[39m\e[60D\e[60C\r\n\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0m\e[2m(Project Description) \e[22m\e[61D\e[61C"
+  - delay: 4067
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mR\e[40D\e[40C"
+  - delay: 423
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRU\e[41D\e[41C"
+  - delay: 434
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mR\e[40D\e[40C"
+  - delay: 226
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRu\e[41D\e[41C"
+  - delay: 216
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun\e[42D\e[42C"
+  - delay: 252
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun \e[43D\e[43C"
+  - delay: 342
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun C\e[44D\e[44C"
+  - delay: 105
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun CL\e[45D\e[45C"
+  - delay: 554
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun CLI\e[46D\e[46C"
+  - delay: 212
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun CLI \e[47D\e[47C"
+  - delay: 362
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun CLI t\e[48D\e[48C"
+  - delay: 87
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun CLI to\e[49D\e[49C"
+  - delay: 92
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun CLI to \e[50D\e[50C"
+  - delay: 697
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun CLI to g\e[51D\e[51C"
+  - delay: 151
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun CLI to ge\e[52D\e[52C"
+  - delay: 223
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun CLI to gen\e[53D\e[53C"
+  - delay: 260
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun CLI to gene\e[54D\e[54C"
+  - delay: 119
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun CLI to gener\e[55D\e[55C"
+  - delay: 219
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun CLI to genera\e[56D\e[56C"
+  - delay: 246
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun CLI to generat\e[57D\e[57C"
+  - delay: 193
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun CLI to generate\e[58D\e[58C"
+  - delay: 843
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun CLI to generate \e[59D\e[59C"
+  - delay: 362
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun CLI to generate c\e[60D\e[60C"
+  - delay: 131
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun CLI to generate cu\e[61D\e[61C"
+  - delay: 145
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun CLI to generate cus\e[62D\e[62C"
+  - delay: 218
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun CLI to generate cust\e[63D\e[63C"
+  - delay: 56
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun CLI to generate custo\e[64D\e[64C"
+  - delay: 84
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun CLI to generate custom\e[65D\e[65C"
+  - delay: 347
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun CLI to generate custom \e[66D\e[66C"
+  - delay: 371
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun CLI to generate custom R\e[67D\e[67C"
+  - delay: 163
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun CLI to generate custom RE\e[68D\e[68C"
+  - delay: 219
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun CLI to generate custom REA\e[69D\e[69C"
+  - delay: 220
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun CLI to generate custom READ\e[70D\e[70C"
+  - delay: 411
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun CLI to generate custom READM\e[71D\e[71C"
+  - delay: 398
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun CLI to generate custom README\e[72D\e[72C"
+  - delay: 1263
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun CLI to generate custom README.\e[73D\e[73C"
+  - delay: 510
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun CLI to generate custom README.m\e[74D\e[74C"
+  - delay: 175
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun CLI to generate custom README.md\e[75D\e[75C"
+  - delay: 434
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun CLI to generate custom README.md \e[76D\e[76C"
+  - delay: 206
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun CLI to generate custom README.md f\e[77D\e[77C"
+  - delay: 92
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun CLI to generate custom README.md fi\e[78D\e[78C"
+  - delay: 117
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun CLI to generate custom README.md fil\e[79D\e[79C"
+  - delay: 175
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0mRun CLI to generate custom README.md file\r\n\e[0D"
+  - delay: 375
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mWrite a description of your project.\e[22m\e[0m \e[0m\e[36mRun CLI to generate custom README.md file\r\n\e[39m\r\n\e[0D\r\n\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0m\e[19D\e[19C"
+  - delay: 3326
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mU\e[20D\e[20C"
+  - delay: 185
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUn\e[21D\e[21C"
+  - delay: 94
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnd\e[22D\e[22C"
+  - delay: 192
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnde\e[23D\e[23C"
+  - delay: 95
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnder\e[24D\e[24C"
+  - delay: 306
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnders\e[25D\e[25C"
+  - delay: 171
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderst\e[26D\e[26C"
+  - delay: 103
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUndersta\e[27D\e[27C"
+  - delay: 133
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstan\e[28D\e[28C"
+  - delay: 141
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstann\e[29D\e[29C"
+  - delay: 547
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstan\e[28D\e[28C"
+  - delay: 136
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand\e[29D\e[29C"
+  - delay: 419
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand \e[30D\e[30C"
+  - delay: 400
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand J\e[31D\e[31C"
+  - delay: 307
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS\e[32D\e[32C"
+  - delay: 968
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS \e[33D\e[33C"
+  - delay: 388
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS N\e[34D\e[34C"
+  - delay: 223
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS No\e[35D\e[35C"
+  - delay: 591
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Nod\e[36D\e[36C"
+  - delay: 201
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node\e[37D\e[37C"
+  - delay: 905
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node \e[38D\e[38C"
+  - delay: 223
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node i\e[39D\e[39C"
+  - delay: 126
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node in\e[40D\e[40C"
+  - delay: 202
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node ins\e[41D\e[41C"
+  - delay: 219
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node inst\e[42D\e[42C"
+  - delay: 56
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node insta\e[43D\e[43C"
+  - delay: 194
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node instal\e[44D\e[44C"
+  - delay: 135
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install\e[45D\e[45C"
+  - delay: 111
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install \e[46D\e[46C"
+  - delay: 783
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install n\e[47D\e[47C"
+  - delay: 155
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install np\e[48D\e[48C"
+  - delay: 787
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm\e[49D\e[49C"
+  - delay: 263
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm \e[50D\e[50C"
+  - delay: 527
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm r\e[51D\e[51C"
+  - delay: 156
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm re\e[52D\e[52C"
+  - delay: 371
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm req\e[53D\e[53C"
+  - delay: 146
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm requ\e[54D\e[54C"
+  - delay: 362
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm requi\e[55D\e[55C"
+  - delay: 152
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm requir\e[56D\e[56C"
+  - delay: 84
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require\e[57D\e[57C"
+  - delay: 2477
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require \e[58D\e[58C"
+  - delay: 198
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require -\e[59D\e[59C"
+  - delay: 87
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - \e[60D\e[60C"
+  - delay: 963
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - d\e[61D\e[61C"
+  - delay: 103
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - do\e[62D\e[62C"
+  - delay: 336
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - dou\e[63D\e[63C"
+  - delay: 123
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doub\e[64D\e[64C"
+  - delay: 316
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt\e[65D\e[65C"
+  - delay: 116
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt \e[66D\e[66C"
+  - delay: 484
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt y\e[67D\e[67C"
+  - delay: 128
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yo\e[68D\e[68C"
+  - delay: 107
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt you\e[69D\e[69C"
+  - delay: 117
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt your\e[70D\e[70C"
+  - delay: 260
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yours\e[71D\e[71C"
+  - delay: 203
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourse\e[72D\e[72C"
+  - delay: 100
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yoursel\e[73D\e[73C"
+  - delay: 106
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself\e[74D\e[74C"
+  - delay: 654
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself \e[75D\e[75C"
+  - delay: 182
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself -\e[76D\e[76C"
+  - delay: 88
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - \e[77D\e[77C"
+  - delay: 816
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - h\e[78D\e[78C"
+  - delay: 122
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - ha\e[79D\e[79C"
+  - delay: 122
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\n\e[0D"
+  - delay: 159
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne\e[1D\e[1C"
+  - delay: 138
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne \e[2D\e[2C"
+  - delay: 137
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a\e[3D\e[3C"
+  - delay: 128
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a \e[4D\e[4C"
+  - delay: 534
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a b\e[5D\e[5C"
+  - delay: 239
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a br\e[6D\e[6C"
+  - delay: 115
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a bre\e[7D\e[7C"
+  - delay: 112
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a brea\e[8D\e[8C"
+  - delay: 169
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a break\e[9D\e[9C"
+  - delay: 199
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakd\e[10D\e[10C"
+  - delay: 141
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdo\e[11D\e[11C"
+  - delay: 168
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdow\e[12D\e[12C"
+  - delay: 197
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown\e[13D\e[13C"
+  - delay: 783
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown \e[14D\e[14C"
+  - delay: 206
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown -\e[15D\e[15C"
+  - delay: 76
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - \e[16D\e[16C"
+  - delay: 822
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - g\e[17D\e[17C"
+  - delay: 100
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - gi\e[18D\e[18C"
+  - delay: 505
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - g\e[17D\e[17C"
+  - delay: 109
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - \e[16D\e[16C"
+  - delay: 425
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - p\e[17D\e[17C"
+  - delay: 256
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pi\e[18D\e[18C"
+  - delay: 379
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pic\e[19D\e[19C"
+  - delay: 127
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick\e[20D\e[20C"
+  - delay: 617
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick \e[21D\e[21C"
+  - delay: 214
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick y\e[22D\e[22C"
+  - delay: 135
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yo\e[23D\e[23C"
+  - delay: 69
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick you\e[24D\e[24C"
+  - delay: 156
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick your\e[25D\e[25C"
+  - delay: 409
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yours\e[26D\e[26C"
+  - delay: 219
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourse\e[27D\e[27C"
+  - delay: 97
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yoursel\e[28D\e[28C"
+  - delay: 147
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself\e[29D\e[29C"
+  - delay: 111
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself \e[30D\e[30C"
+  - delay: 186
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself u\e[31D\e[31C"
+  - delay: 83
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up\e[32D\e[32C"
+  - delay: 108
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up \e[33D\e[33C"
+  - delay: 160
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up a\e[34D\e[34C"
+  - delay: 116
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up an\e[35D\e[35C"
+  - delay: 108
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and\e[36D\e[36C"
+  - delay: 117
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and \e[37D\e[37C"
+  - delay: 156
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and s\e[38D\e[38C"
+  - delay: 207
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and st\e[39D\e[39C"
+  - delay: 92
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and sto\e[40D\e[40C"
+  - delay: 213
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop\e[41D\e[41C"
+  - delay: 118
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop \e[42D\e[42C"
+  - delay: 157
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop b\e[43D\e[43C"
+  - delay: 213
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop be\e[44D\e[44C"
+  - delay: 105
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop bei\e[45D\e[45C"
+  - delay: 79
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop bein\e[46D\e[46C"
+  - delay: 106
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being\e[47D\e[47C"
+  - delay: 111
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being \e[48D\e[48C"
+  - delay: 87
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a\e[49D\e[49C"
+  - delay: 129
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a \e[50D\e[50C"
+  - delay: 218
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a c\e[51D\e[51C"
+  - delay: 110
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a ch\e[52D\e[52C"
+  - delay: 90
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a chi\e[53D\e[53C"
+  - delay: 187
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a chil\e[54D\e[54C"
+  - delay: 152
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child\e[55D\e[55C"
+  - delay: 849
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child \e[56D\e[56C"
+  - delay: 204
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child -\e[57D\e[57C"
+  - delay: 95
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - \e[58D\e[58C"
+  - delay: 371
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - g\e[59D\e[59C"
+  - delay: 114
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - gi\e[60D\e[60C"
+  - delay: 573
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - g\e[59D\e[59C"
+  - delay: 118
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - \e[58D\e[58C"
+  - delay: 639
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - f\e[59D\e[59C"
+  - delay: 139
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - fi\e[60D\e[60C"
+  - delay: 127
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - fig\e[61D\e[61C"
+  - delay: 94
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figu\e[62D\e[62C"
+  - delay: 125
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figur\e[63D\e[63C"
+  - delay: 99
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure\e[64D\e[64C"
+  - delay: 105
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure \e[65D\e[65C"
+  - delay: 143
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure i\e[66D\e[66C"
+  - delay: 128
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it\e[67D\e[67C"
+  - delay: 94
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it \e[68D\e[68C"
+  - delay: 120
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it o\e[69D\e[69C"
+  - delay: 115
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it ou\e[70D\e[70C"
+  - delay: 110
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it our\e[71D\e[71C"
+  - delay: 625
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it ou\e[70D\e[70C"
+  - delay: 100
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out\e[71D\e[71C"
+  - delay: 775
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out \e[72D\e[72C"
+  - delay: 327
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out -\e[73D\e[73C"
+  - delay: 104
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - \e[74D\e[74C"
+  - delay: 3653
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - f\e[75D\e[75C"
+  - delay: 136
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - fi\e[76D\e[76C"
+  - delay: 604
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - fig\e[77D\e[77C"
+  - delay: 125
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figu\e[78D\e[78C"
+  - delay: 176
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figur\e[79D\e[79C"
+  - delay: 115
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n\e[0D"
+  - delay: 140
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n \e[1D\e[1C"
+  - delay: 119
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n o\e[2D\e[2C"
+  - delay: 88
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n ou\e[3D\e[3C"
+  - delay: 136
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out\e[4D\e[4C"
+  - delay: 104
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out \e[5D\e[5C"
+  - delay: 148
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out h\e[6D\e[6C"
+  - delay: 97
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out ho\e[7D\e[7C"
+  - delay: 115
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out how\e[8D\e[8C"
+  - delay: 117
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out how \e[9D\e[9C"
+  - delay: 188
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out how t\e[10D\e[10C"
+  - delay: 40
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out how to\e[11D\e[11C"
+  - delay: 84
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out how to \e[12D\e[12C"
+  - delay: 316
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out how to r\e[13D\e[13C"
+  - delay: 151
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out how to re\e[14D\e[14C"
+  - delay: 260
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out how to rec\e[15D\e[15C"
+  - delay: 97
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out how to reco\e[16D\e[16C"
+  - delay: 904
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out how to recor\e[17D\e[17C"
+  - delay: 199
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out how to record\e[18D\e[18C"
+  - delay: 178
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out how to record \e[19D\e[19C"
+  - delay: 188
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out how to record a\e[20D\e[20C"
+  - delay: 141
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out how to record a \e[21D\e[21C"
+  - delay: 457
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out how to record a g\e[22D\e[22C"
+  - delay: 122
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out how to record a gi\e[23D\e[23C"
+  - delay: 1086
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out how to record a gif\e[24D\e[24C"
+  - delay: 198
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out how to record a gif.\e[25D\e[25C"
+  - delay: 198
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out how to record a gif..\e[26D\e[26C"
+  - delay: 176
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out how to record a gif...\e[27D\e[27C"
+  - delay: 389
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out how to record a gif... \e[28D\e[28C"
+  - delay: 164
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out how to record a gif...  \e[29D\e[29C"
+  - delay: 365
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out how to record a gif...  h\e[30D\e[30C"
+  - delay: 90
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out how to record a gif...  he\e[31D\e[31C"
+  - delay: 100
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out how to record a gif...  her\e[32D\e[32C"
+  - delay: 96
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out how to record a gif...  here\e[33D\e[33C"
+  - delay: 201
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out how to record a gif...  here \e[34D\e[34C"
+  - delay: 425
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out how to record a gif...  here w\e[35D\e[35C"
+  - delay: 146
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out how to record a gif...  here we\e[36D\e[36C"
+  - delay: 361
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out how to record a gif...  here we \e[37D\e[37C"
+  - delay: 132
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out how to record a gif...  here we a\e[38D\e[38C"
+  - delay: 185
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out how to record a gif...  here we ar\e[39D\e[39C"
+  - delay: 94
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out how to record a gif...  here we are\e[40D\e[40C"
+  - delay: 756
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out how to record a gif...  here we are!\e[41D\e[41C"
+  - delay: 361
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, describe the steps required to install your project for the Ins\r\ntallation section.\e[22m\e[0m \e[0m\e[36mUnderstand JS Node install npm require - doubt yourself - hav\r\ne a breakdown - pick yourself up and stop being a child - figure it out - figure\r\n out how to record a gif...  here we are!\e[39m\e[41D\e[41C\r\n\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0m\e[2D\e[2C"
+  - delay: 3001
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mA\e[3D\e[3C"
+  - delay: 169
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAl\e[4D\e[4C"
+  - delay: 156
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll\e[5D\e[5C"
+  - delay: 91
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll \e[6D\e[6C"
+  - delay: 133
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll t\e[7D\e[7C"
+  - delay: 91
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll th\e[8D\e[8C"
+  - delay: 98
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the\e[9D\e[9C"
+  - delay: 60
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the \e[10D\e[10C"
+  - delay: 144
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the a\e[11D\e[11C"
+  - delay: 187
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the ab\e[12D\e[12C"
+  - delay: 136
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the abo\e[13D\e[13C"
+  - delay: 839
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the abov\e[14D\e[14C"
+  - delay: 163
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above\e[15D\e[15C"
+  - delay: 679
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above \e[16D\e[16C"
+  - delay: 127
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above -\e[17D\e[17C"
+  - delay: 96
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - \e[18D\e[18C"
+  - delay: 411
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - d\e[19D\e[19C"
+  - delay: 235
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - do\e[20D\e[20C"
+  - delay: 108
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don\e[21D\e[21C"
+  - delay: 262
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - dont\e[22D\e[22C"
+  - delay: 669
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don\e[21D\e[21C"
+  - delay: 481
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don'\e[22D\e[22C"
+  - delay: 419
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don't\e[23D\e[23C"
+  - delay: 149
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don't \e[24D\e[24C"
+  - delay: 363
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don't g\e[25D\e[25C"
+  - delay: 116
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don't gi\e[26D\e[26C"
+  - delay: 243
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don't giv\e[27D\e[27C"
+  - delay: 326
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don't give\e[28D\e[28C"
+  - delay: 141
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don't give \e[29D\e[29C"
+  - delay: 169
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don't give u\e[30D\e[30C"
+  - delay: 99
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don't give up\e[31D\e[31C"
+  - delay: 972
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don't give up.\e[32D\e[32C"
+  - delay: 169
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don't give up..\e[33D\e[33C"
+  - delay: 151
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don't give up...\e[34D\e[34C"
+  - delay: 145
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don't give up... \e[35D\e[35C"
+  - delay: 206
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don't give up... n\e[36D\e[36C"
+  - delay: 128
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don't give up... ne\e[37D\e[37C"
+  - delay: 147
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don't give up... nev\e[38D\e[38C"
+  - delay: 166
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don't give up... neve\e[39D\e[39C"
+  - delay: 549
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don't give up... never\e[40D\e[40C"
+  - delay: 168
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don't give up... never \e[41D\e[41C"
+  - delay: 171
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don't give up... never g\e[42D\e[42C"
+  - delay: 90
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don't give up... never gi\e[43D\e[43C"
+  - delay: 293
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don't give up... never giv\e[44D\e[44C"
+  - delay: 205
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don't give up... never give\e[45D\e[45C"
+  - delay: 106
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don't give up... never give \e[46D\e[46C"
+  - delay: 161
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don't give up... never give u\e[47D\e[47C"
+  - delay: 68
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don't give up... never give up\e[48D\e[48C"
+  - delay: 600
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don't give up... never give up \e[49D\e[49C"
+  - delay: 179
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don't give up... never give up -\e[50D\e[50C"
+  - delay: 963
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don't give up... never give up -J\e[51D\e[51C"
+  - delay: 385
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don't give up... never give up -Ji\e[52D\e[52C"
+  - delay: 209
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don't give up... never give up -Jim\e[53D\e[53C"
+  - delay: 149
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don't give up... never give up -Jimm\e[54D\e[54C"
+  - delay: 264
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don't give up... never give up -Jimmy\e[55D\e[55C"
+  - delay: 164
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don't give up... never give up -Jimmy \e[56D\e[56C"
+  - delay: 426
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0mAll the above - don't give up... never give up -Jimmy V\e[57D\e[57C"
+  - delay: 431
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mProvide instructions and examples of your project in use for the Usage section\r\n.\e[22m\e[0m \e[0m\e[36mAll the above - don't give up... never give up -Jimmy V\e[39m\e[57D\e[57C\r\n\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0m\e[12D\e[12C"
+  - delay: 7104
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mS\e[13D\e[13C"
+  - delay: 185
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mSh\e[14D\e[14C"
+  - delay: 95
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mSha\e[15D\e[15C"
+  - delay: 283
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShar\e[16D\e[16C"
+  - delay: 107
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare\e[17D\e[17C"
+  - delay: 158
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare \e[18D\e[18C"
+  - delay: 166
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare a\e[19D\e[19C"
+  - delay: 87
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare an\e[20D\e[20C"
+  - delay: 222
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any\e[21D\e[21C"
+  - delay: 87
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any \e[22D\e[22C"
+  - delay: 326
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any t\e[23D\e[23C"
+  - delay: 91
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any ti\e[24D\e[24C"
+  - delay: 186
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tip\e[25D\e[25C"
+  - delay: 203
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips\e[26D\e[26C"
+  - delay: 1255
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips \e[27D\e[27C"
+  - delay: 215
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips t\e[28D\e[28C"
+  - delay: 69
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to\e[29D\e[29C"
+  - delay: 82
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to \e[30D\e[30C"
+  - delay: 153
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to h\e[31D\e[31C"
+  - delay: 118
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to he\e[32D\e[32C"
+  - delay: 80
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to hel\e[33D\e[33C"
+  - delay: 190
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help\e[34D\e[34C"
+  - delay: 613
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help \e[35D\e[35C"
+  - delay: 161
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help t\e[36D\e[36C"
+  - delay: 77
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help th\e[37D\e[37C"
+  - delay: 129
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the\e[38D\e[38C"
+  - delay: 84
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the \e[39D\e[39C"
+  - delay: 284
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the l\e[40D\e[40C"
+  - delay: 201
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the le\e[41D\e[41C"
+  - delay: 204
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the ler\e[42D\e[42C"
+  - delay: 396
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the le\e[41D\e[41C"
+  - delay: 99
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the lea\e[42D\e[42C"
+  - delay: 299
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the lear\e[43D\e[43C"
+  - delay: 235
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learn\e[44D\e[44C"
+  - delay: 120
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learni\e[45D\e[45C"
+  - delay: 103
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learnin\e[46D\e[46C"
+  - delay: 128
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning\e[47D\e[47C"
+  - delay: 90
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning \e[48D\e[48C"
+  - delay: 218
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning c\e[49D\e[49C"
+  - delay: 122
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning cu\e[50D\e[50C"
+  - delay: 742
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning cur\e[51D\e[51C"
+  - delay: 286
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curv\e[52D\e[52C"
+  - delay: 159
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve\e[53D\e[53C"
+  - delay: 143
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve \e[54D\e[54C"
+  - delay: 394
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve f\e[55D\e[55C"
+  - delay: 412
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve fl\e[56D\e[56C"
+  - delay: 237
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve fla\e[57D\e[57C"
+  - delay: 297
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flat\e[58D\e[58C"
+  - delay: 129
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatt\e[59D\e[59C"
+  - delay: 173
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatte\e[60D\e[60C"
+  - delay: 108
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten\e[61D\e[61C"
+  - delay: 797
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten \e[62D\e[62C"
+  - delay: 137
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten l\e[63D\e[63C"
+  - delay: 172
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten li\e[64D\e[64C"
+  - delay: 171
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten lik\e[65D\e[65C"
+  - delay: 132
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like\e[66D\e[66C"
+  - delay: 88
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like \e[67D\e[67C"
+  - delay: 167
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like t\e[68D\e[68C"
+  - delay: 101
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like th\e[69D\e[69C"
+  - delay: 82
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like tha\e[70D\e[70C"
+  - delay: 139
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like that\e[71D\e[71C"
+  - delay: 199
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like thats\e[72D\e[72C"
+  - delay: 107
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like thats \e[73D\e[73C"
+  - delay: 141
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like thats w\e[74D\e[74C"
+  - delay: 80
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like thats wh\e[75D\e[75C"
+  - delay: 104
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like thats wha\e[76D\e[76C"
+  - delay: 145
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like thats whay\e[77D\e[77C"
+  - delay: 128
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like thats whay \e[78D\e[78C"
+  - delay: 487
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like thats whay\e[77D\e[77C"
+  - delay: 133
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like thats wha\e[76D\e[76C"
+  - delay: 318
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like thats what\e[77D\e[77C"
+  - delay: 97
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like thats what \e[78D\e[78C"
+  - delay: 303
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like thats what y\e[79D\e[79C"
+  - delay: 127
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like thats what yo\r\n\e[0D"
+  - delay: 84
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like thats what yo\r\nu\e[1D\e[1C"
+  - delay: 59
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like thats what yo\r\nu \e[2D\e[2C"
+  - delay: 154
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like thats what yo\r\nu w\e[3D\e[3C"
+  - delay: 127
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like thats what yo\r\nu wa\e[4D\e[4C"
+  - delay: 112
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like thats what yo\r\nu wan\e[5D\e[5C"
+  - delay: 159
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like thats what yo\r\nu want\e[6D\e[6C"
+  - delay: 101
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like thats what yo\r\nu want \e[7D\e[7C"
+  - delay: 131
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like thats what yo\r\nu want t\e[8D\e[8C"
+  - delay: 76
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like thats what yo\r\nu want to\e[9D\e[9C"
+  - delay: 68
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like thats what yo\r\nu want to \e[10D\e[10C"
+  - delay: 207
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like thats what yo\r\nu want to h\e[11D\e[11C"
+  - delay: 80
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like thats what yo\r\nu want to he\e[12D\e[12C"
+  - delay: 129
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like thats what yo\r\nu want to hea\e[13D\e[13C"
+  - delay: 153
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like thats what yo\r\nu want to hear\e[14D\e[14C"
+  - delay: 120
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like thats what yo\r\nu want to hear \e[15D\e[15C"
+  - delay: 145
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like thats what yo\r\nu want to hear i\e[16D\e[16C"
+  - delay: 75
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like thats what yo\r\nu want to hear in\e[17D\e[17C"
+  - delay: 96
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like thats what yo\r\nu want to hear in \e[18D\e[18C"
+  - delay: 711
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like thats what yo\r\nu want to hear in 2\e[19D\e[19C"
+  - delay: 99
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like thats what yo\r\nu want to hear in 20\e[20D\e[20C"
+  - delay: 119
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like thats what yo\r\nu want to hear in 202\e[21D\e[21C"
+  - delay: 72
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0mShare any tips to help the learning curve flatten like thats what yo\r\nu want to hear in 2020\e[22D\e[22C"
+  - delay: 262
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide guidelines on how other developers can contribute to yo\r\nur project.\e[22m\e[0m \e[0m\e[36mShare any tips to help the learning curve flatten like thats what yo\r\nu want to hear in 2020\e[39m\e[22D\e[22C\r\n\e[32m?\e[39m \e[1mIf applicable, provide any tests written for your application and provide exam\r\nples on how to run them.\e[22m\e[0m \e[0m\e[25D\e[25C"
+  - delay: 8455
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide any tests written for your application and provide exam\r\nples on how to run them.\e[22m\e[0m \e[0mI\e[26D\e[26C"
+  - delay: 99
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide any tests written for your application and provide exam\r\nples on how to run them.\e[22m\e[0m \e[0mI \e[27D\e[27C"
+  - delay: 166
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide any tests written for your application and provide exam\r\nples on how to run them.\e[22m\e[0m \e[0mI c\e[28D\e[28C"
+  - delay: 123
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide any tests written for your application and provide exam\r\nples on how to run them.\e[22m\e[0m \e[0mI ca\e[29D\e[29C"
+  - delay: 140
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide any tests written for your application and provide exam\r\nples on how to run them.\e[22m\e[0m \e[0mI can\e[30D\e[30C"
+  - delay: 398
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mIf applicable, provide any tests written for your application and provide exam\r\nples on how to run them.\e[22m\e[0m \e[0m\e[36mI can\e[39m\e[30D\e[30C\r\n"
+  - delay: 5
+    content: "\e[?25l\e[32m?\e[39m \e[1mChoose a license for your project.\e[22m\e[0m \e[0m\e[2m(Use arrow keys)\e[22m\r\n\e[36m❯ GNU AGPLv3\e[39m \r\n  GNU GPLv3 \r\n  GNU LGPLv3 \r\n  Mozilla Public License 2.0 \r\n  Apache License 2.0 \r\n  MIT License \r\n  Boost Software License 1.0 \r\n\e[2m(Move up and down to reveal more choices)\e[22m\e[41D\e[41C"
+  - delay: 2615
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mChoose a license for your project.\e[22m\e[0m \e[0m\r\n  GNU AGPLv3 \r\n\e[36m❯ GNU GPLv3\e[39m \r\n  GNU LGPLv3 \r\n  Mozilla Public License 2.0 \r\n  Apache License 2.0 \r\n  MIT License \r\n  Boost Software License 1.0 \r\n\e[2m(Move up and down to reveal more choices)\e[22m\e[41D\e[41C\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mChoose a license for your project.\e[22m\e[0m \e[0m\r\n  The Unlicense \r\n\e[36m❯ GNU AGPLv3\e[39m \r\n  GNU GPLv3 \r\n  GNU LGPLv3 \r\n  Mozilla Public License 2.0 \r\n  Apache License 2.0 \r\n  MIT License \r\n\e[2m(Move up and down to reveal more choices)\e[22m\e[41D\e[41C"
+  - delay: 174
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mChoose a license for your project.\e[22m\e[0m \e[0m\r\n  The Unlicense \r\n  GNU AGPLv3 \r\n\e[36m❯ GNU GPLv3\e[39m \r\n  GNU LGPLv3 \r\n  Mozilla Public License 2.0 \r\n  Apache License 2.0 \r\n  MIT License \r\n\e[2m(Move up and down to reveal more choices)\e[22m\e[41D\e[41C"
+  - delay: 158
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mChoose a license for your project.\e[22m\e[0m \e[0m\r\n  The Unlicense \r\n  GNU AGPLv3 \r\n  GNU GPLv3 \r\n\e[36m❯ GNU LGPLv3\e[39m \r\n  Mozilla Public License 2.0 \r\n  Apache License 2.0 \r\n  MIT License \r\n\e[2m(Move up and down to reveal more choices)\e[22m\e[41D\e[41C"
+  - delay: 193
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mChoose a license for your project.\e[22m\e[0m \e[0m\r\n  GNU AGPLv3 \r\n  GNU GPLv3 \r\n  GNU LGPLv3 \r\n\e[36m❯ Mozilla Public License 2.0\e[39m \r\n  Apache License 2.0 \r\n  MIT License \r\n  Boost Software License 1.0 \r\n\e[2m(Move up and down to reveal more choices)\e[22m\e[41D\e[41C"
+  - delay: 748
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mChoose a license for your project.\e[22m\e[0m \e[0m\r\n  GNU GPLv3 \r\n  GNU LGPLv3 \r\n  Mozilla Public License 2.0 \r\n\e[36m❯ Apache License 2.0\e[39m \r\n  MIT License \r\n  Boost Software License 1.0 \r\n  The Unlicense \r\n\e[2m(Move up and down to reveal more choices)\e[22m\e[41D\e[41C"
+  - delay: 541
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mChoose a license for your project.\e[22m\e[0m \e[0m\r\n  GNU LGPLv3 \r\n  Mozilla Public License 2.0 \r\n  Apache License 2.0 \r\n\e[36m❯ MIT License\e[39m \r\n  Boost Software License 1.0 \r\n  The Unlicense \r\n  GNU AGPLv3 \r\n\e[2m(Move up and down to reveal more choices)\e[22m\e[41D\e[41C"
+  - delay: 615
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mChoose a license for your project.\e[22m\e[0m \e[0m\e[36mMIT License\e[39m\e[48D\e[48C\r\n\e[?25h\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0m\e[51D\e[51C"
+  - delay: 1869
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mA\e[52D\e[52C"
+  - delay: 168
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAl\e[53D\e[53C"
+  - delay: 143
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll\e[54D\e[54C"
+  - delay: 119
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll \e[55D\e[55C"
+  - delay: 168
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll o\e[56D\e[56C"
+  - delay: 111
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of\e[57D\e[57C"
+  - delay: 108
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of \e[58D\e[58C"
+  - delay: 103
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of t\e[59D\e[59C"
+  - delay: 82
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of th\e[60D\e[60C"
+  - delay: 92
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of the\e[61D\e[61C"
+  - delay: 113
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them\e[62D\e[62C"
+  - delay: 473
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them \e[63D\e[63C"
+  - delay: 128
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them a\e[64D\e[64C"
+  - delay: 80
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them an\e[65D\e[65C"
+  - delay: 108
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and\e[66D\e[66C"
+  - delay: 64
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and \e[67D\e[67C"
+  - delay: 152
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and n\e[68D\e[68C"
+  - delay: 121
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and no\e[69D\e[69C"
+  - delay: 217
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and non\e[70D\e[70C"
+  - delay: 140
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none\e[71D\e[71C"
+  - delay: 86
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none \e[72D\e[72C"
+  - delay: 147
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none o\e[73D\e[73C"
+  - delay: 97
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of\e[74D\e[74C"
+  - delay: 121
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of \e[75D\e[75C"
+  - delay: 121
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of t\e[76D\e[76C"
+  - delay: 76
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of th\e[77D\e[77C"
+  - delay: 97
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of the\e[78D\e[78C"
+  - delay: 86
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them\e[79D\e[79C"
+  - delay: 485
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\n\e[0D"
+  - delay: 182
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nb\e[1D\e[1C"
+  - delay: 86
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbu\e[2D\e[2C"
+  - delay: 136
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut\e[3D\e[3C"
+  - delay: 441
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut \e[4D\e[4C"
+  - delay: 352
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I\e[5D\e[5C"
+  - delay: 68
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I \e[6D\e[6C"
+  - delay: 976
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I w\e[7D\e[7C"
+  - delay: 182
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I wn\e[8D\e[8C"
+  - delay: 395
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I w\e[7D\e[7C"
+  - delay: 96
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I we\e[8D\e[8C"
+  - delay: 120
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I wen\e[9D\e[9C"
+  - delay: 141
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went\e[10D\e[10C"
+  - delay: 99
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went \e[11D\e[11C"
+  - delay: 206
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went b\e[12D\e[12C"
+  - delay: 127
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went ba\e[13D\e[13C"
+  - delay: 204
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went bac\e[14D\e[14C"
+  - delay: 115
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back\e[15D\e[15C"
+  - delay: 88
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back \e[16D\e[16C"
+  - delay: 127
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back t\e[17D\e[17C"
+  - delay: 49
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to\e[18D\e[18C"
+  - delay: 91
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to \e[19D\e[19C"
+  - delay: 1273
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .\e[20D\e[20C"
+  - delay: 506
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .j\e[21D\e[21C"
+  - delay: 151
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js\e[22D\e[22C"
+  - delay: 305
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js \e[23D\e[23C"
+  - delay: 294
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js b\e[24D\e[24C"
+  - delay: 115
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js ba\e[25D\e[25C"
+  - delay: 311
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js bas\e[26D\e[26C"
+  - delay: 146
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basi\e[27D\e[27C"
+  - delay: 299
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basic\e[28D\e[28C"
+  - delay: 226
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics\e[29D\e[29C"
+  - delay: 105
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics \e[30D\e[30C"
+  - delay: 162
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics t\e[31D\e[31C"
+  - delay: 56
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to\e[32D\e[32C"
+  - delay: 68
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to \e[33D\e[33C"
+  - delay: 149
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to u\e[34D\e[34C"
+  - delay: 175
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to un\e[35D\e[35C"
+  - delay: 67
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to und\e[36D\e[36C"
+  - delay: 163
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to unde\e[37D\e[37C"
+  - delay: 83
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to under\e[38D\e[38C"
+  - delay: 221
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to unders\e[39D\e[39C"
+  - delay: 209
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to underst\e[40D\e[40C"
+  - delay: 157
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understa\e[41D\e[41C"
+  - delay: 125
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understan\e[42D\e[42C"
+  - delay: 202
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand\e[43D\e[43C"
+  - delay: 239
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand \e[44D\e[44C"
+  - delay: 642
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand w\e[45D\e[45C"
+  - delay: 112
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand wh\e[46D\e[46C"
+  - delay: 96
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand whe\e[47D\e[47C"
+  - delay: 83
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand wher\e[48D\e[48C"
+  - delay: 120
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where\e[49D\e[49C"
+  - delay: 997
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/\e[50D\e[50C"
+  - delay: 382
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/h\e[51D\e[51C"
+  - delay: 77
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/ho\e[52D\e[52C"
+  - delay: 191
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how\e[53D\e[53C"
+  - delay: 531
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how \e[54D\e[54C"
+  - delay: 676
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I\e[55D\e[55C"
+  - delay: 101
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I \e[56D\e[56C"
+  - delay: 243
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I c\e[57D\e[57C"
+  - delay: 55
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I co\e[58D\e[58C"
+  - delay: 96
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I cou\e[59D\e[59C"
+  - delay: 135
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I coul\e[60D\e[60C"
+  - delay: 766
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I cou\e[59D\e[59C"
+  - delay: 224
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couu\e[60D\e[60C"
+  - delay: 545
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I cou\e[59D\e[59C"
+  - delay: 293
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I coul\e[60D\e[60C"
+  - delay: 196
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I could\e[61D\e[61C"
+  - delay: 158
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn\e[62D\e[62C"
+  - delay: 210
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn'\e[63D\e[63C"
+  - delay: 207
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't\e[64D\e[64C"
+  - delay: 106
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't \e[65D\e[65C"
+  - delay: 156
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't c\e[66D\e[66C"
+  - delay: 100
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't co\e[67D\e[67C"
+  - delay: 146
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't con\e[68D\e[68C"
+  - delay: 140
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't conn\e[69D\e[69C"
+  - delay: 120
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't conne\e[70D\e[70C"
+  - delay: 202
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't connec\e[71D\e[71C"
+  - delay: 210
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't connect\e[72D\e[72C"
+  - delay: 127
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't connect \e[73D\e[73C"
+  - delay: 272
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't connect c\e[74D\e[74C"
+  - delay: 71
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't connect co\e[75D\e[75C"
+  - delay: 80
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't connect con\e[76D\e[76C"
+  - delay: 368
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't connect conc\e[77D\e[77C"
+  - delay: 223
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't connect conce\e[78D\e[78C"
+  - delay: 97
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't connect concep\e[79D\e[79C"
+  - delay: 190
+    content: "\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't connect concept\r\n\e[0D"
+  - delay: 186
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't connect concept\r\ns\e[1D\e[1C"
+  - delay: 140
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't connect concept\r\ns \e[2D\e[2C"
+  - delay: 191
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't connect concept\r\ns f\e[3D\e[3C"
+  - delay: 198
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't connect concept\r\ns fr\e[4D\e[4C"
+  - delay: 163
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't connect concept\r\ns fro\e[5D\e[5C"
+  - delay: 464
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't connect concept\r\ns from\e[6D\e[6C"
+  - delay: 198
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't connect concept\r\ns from \e[7D\e[7C"
+  - delay: 390
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't connect concept\r\ns from b\e[8D\e[8C"
+  - delay: 182
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't connect concept\r\ns from be\e[9D\e[9C"
+  - delay: 224
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't connect concept\r\ns from bef\e[10D\e[10C"
+  - delay: 125
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't connect concept\r\ns from befo\e[11D\e[11C"
+  - delay: 92
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't connect concept\r\ns from befor\e[12D\e[12C"
+  - delay: 72
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't connect concept\r\ns from before\e[13D\e[13C"
+  - delay: 96
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't connect concept\r\ns from before \e[14D\e[14C"
+  - delay: 197
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't connect concept\r\ns from before p\e[15D\e[15C"
+  - delay: 177
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't connect concept\r\ns from before pr\e[16D\e[16C"
+  - delay: 147
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't connect concept\r\ns from before pro\e[17D\e[17C"
+  - delay: 287
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't connect concept\r\ns from before proj\e[18D\e[18C"
+  - delay: 151
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't connect concept\r\ns from before proje\e[19D\e[19C"
+  - delay: 223
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't connect concept\r\ns from before projec\e[20D\e[20C"
+  - delay: 207
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't connect concept\r\ns from before project\e[21D\e[21C"
+  - delay: 120
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't connect concept\r\ns from before project \e[22D\e[22C"
+  - delay: 510
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't connect concept\r\ns from before project 1\e[23D\e[23C"
+  - delay: 198
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mDid you have any issues developing your project?\e[22m\e[0m \e[0m\e[36mAll of them and none of them \r\nbut I went back to .js basics to understand where/how I couldn't connect concept\r\ns from before project 1\e[39m\e[23D\e[23C\r\n"
+  - delay: 11
+    content: "Your responses:  {\r\n  username: \e[32m'Papa-Sean'\e[39m,\r\n  repo: \e[32m'readmeGenerator'\e[39m,\r\n  title: \e[32m'README.md Generator CLI'\e[39m,\r\n  description: \e[32m'Run CLI to generate custom README.md file'\e[39m,\r\n  installation: \e[32m'Understand JS Node install npm require - doubt yourself - have a breakdown - pick yourself up and stop being a child - figure it out - figure out how to record a gif...  here we are!'\e[39m,\r\n  usage: \e[32m\"All the above - don't give up... never give up -Jimmy V\"\e[39m,\r\n  contributing: \e[32m'Share any tips to help the learning curve flatten like thats what you want to hear in 2020'\e[39m,\r\n  tests: \e[32m'I can'\e[39m,\r\n  license: \e[32m'MIT License'\e[39m,\r\n  issues: \e[32m\"All of them and none of them but I went back to .js basics to understand where/how I couldn't connect concepts from before project 1\"\e[39m\r\n}\r\nThank you for your responses! Fetching your GitHub data next...\r\n"
+  - delay: 253
+    content: "Your GitHub user info:  {\r\n  login: \e[32m'Papa-Sean'\e[39m,\r\n  id: \e[33m69025655\e[39m,\r\n  node_id: \e[32m'MDQ6VXNlcjY5MDI1NjU1'\e[39m,\r\n  avatar_url: \e[32m'https://avatars2.githubusercontent.com/u/69025655?v=4'\e[39m,\r\n  gravatar_id: \e[32m''\e[39m,\r\n  url: \e[32m'https://api.github.com/users/Papa-Sean'\e[39m,\r\n  html_url: \e[32m'https://github.com/Papa-Sean'\e[39m,\r\n  followers_url: \e[32m'https://api.github.com/users/Papa-Sean/followers'\e[39m,\r\n  following_url: \e[32m'https://api.github.com/users/Papa-Sean/following{/other_user}'\e[39m,\r\n  gists_url: \e[32m'https://api.github.com/users/Papa-Sean/gists{/gist_id}'\e[39m,\r\n  starred_url: \e[32m'https://api.github.com/users/Papa-Sean/starred{/owner}{/repo}'\e[39m,\r\n  subscriptions_url: \e[32m'https://api.github.com/users/Papa-Sean/subscriptions'\e[39m,\r\n  organizations_url: \e[32m'https://api.github.com/users/Papa-Sean/orgs'\e[39m,\r\n  repos_url: \e[32m'https://api.github.com/users/Papa-Sean/repos'\e[39m,\r\n  events_url: \e[32m'https://api.github.com/users/Papa-Sean/events{/privacy}'\e[39m,\r\n  received_events_url: \e[32m'https://api.github.com/users/Papa-Sean/received_events'\e[39m,\r\n  type: \e[32m'User'\e[39m,\r\n  site_admin: \e[33mfalse\e[39m,\r\n  name: \e[1mnull\e[22m,\r\n  company: \e[1mnull\e[22m,\r\n  blog: \e[32m''\e[39m,\r\n  location: \e[1mnull\e[22m,\r\n  email: \e[1mnull\e[22m,\r\n  hireable: \e[1mnull\e[22m,\r\n  bio: \e[1mnull\e[22m,\r\n  twitter_username: \e[1mnull\e[22m,\r\n  public_repos: \e[33m13\e[39m,\r\n  public_gists: \e[33m0\e[39m,\r\n  followers: \e[33m0\e[39m,\r\n  following: \e[33m0\e[39m,\r\n  created_at: \e[32m'2020-07-31T03:16:12Z'\e[39m,\r\n  updated_at: \e[32m'2020-11-21T23:09:40Z'\e[39m\r\n}\r\nGenerating your README next...\r\n# README.md Generator CLI\r\n  ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/Papa-Sean/readmeGenerator?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/Papa-Sean/readmeGenerator?style=flat&logo=appveyor)\r\n  \r\n  Check out the badges hosted by [shields.io](https://shields.io/).\r\n  \r\n  \r\n  ## Description \r\n  \r\n  *The what, why, and how:* \r\n  \r\n  Run CLI to generate custom README.md file\r\n  ## Table of Contents\r\n  * [Installation](#installation)\r\n  * [Usage](#usage)\r\n  * [Contributing](#contributing)\r\n  * [Tests](#tests)\r\n  * [License](#license)\r\n  \r\n  ## Installation\r\n  \r\n  *Steps required to install project and how to get the development environment running:*\r\n  \r\n  Understand JS Node install npm require - doubt yourself - have a breakdown - pick yourself up and stop being a child - figure it out - figure out how to record a gif...  here we are!\r\n  \r\n  ## Usage \r\n  \r\n  *Instructions and examples for use:*\r\n  \r\n  All the above - don't give up... never give up -Jimmy V\r\n  \r\n  ## Tests\r\n  \r\n  *Tests for application and how to run them:*\r\n  \r\n  I can\r\n  \r\n  ## License\r\n  \r\n  MIT License\r\n  \r\n  ---\r\n  \r\n  ## Questions?\r\n  \r\n  ![Developer Profile Picture](https://avatars2.githubusercontent.com/u/69025655?v=4) \r\n  \r\n  For any questions, please contact me with the information below:\r\n \r\n  GitHub: [@Papa-Sean](https://api.github.com/users/Papa-Sean)\r\n  \r\n"
+  - delay: 8
+    content: "Success! Your README.md file has been generated\r\n\e[?25h"
+  - delay: 20
+    content: "\e]7;file://Seans-MacBook-Pro.local/Users/seansugrue/readmeGenerator\aSeans-MacBook-Pro:readmeGenerator seansugrue$ "
+  - delay: 6613
+    content: "logout\r\nSaving session..."
+  - delay: 19
+    content: "\r\n...copying shared history..."
+  - delay: 8
+    content: "\r\n...saving history..."
+  - delay: 9
+    content: "truncating history files...\r\n...completed.\r\n"
