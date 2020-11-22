@@ -1,120 +1,132 @@
+// External packages
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
 
-const api = require('.api.js');
-const generateMarkdown = require('.generateMarkdown.js');
+// Internal modules
+const api = require('./utils/api.js');
+const generateMarkdown = require('./utils/generateMarkdown.js');
 
+// Inquirer prompts for userResponses
 const questions = [
     {
         type: 'input',
-        message: "GitHub Username?",
+        message: "What is your GitHub username? (No @ needed)",
         name: 'username',
         default: 'Papa-Sean',
-        validate: function (answer){
-            if (answer.length < 1){
-                return console.log("GitHub username required");
+        validate: function (answer) {
+            if (answer.length < 1) {
+                return console.log("A valid GitHub username is required.");
             }
             return true;
         }
     },
     {
         type: 'input',
-        message: "Name your GitHub repo",
+        message: "What is the name of your GitHub repo?",
         name: 'repo',
         default: 'readmeGenerator',
-        validate: function (answer){
-            if (answer.length <1){
-                return console.log("Valid GitHub repo required");
+        validate: function (answer) {
+            if (answer.length < 1) {
+                return console.log("A valid GitHub repo is required for a badge.");
             }
             return true;
         }
-
     },
     {
         type: 'input',
-        message: "Project Title",
+        message: "What is the title of your project?",
         name: 'title',
         default: 'Project Title',
-        validate: function (answer){
-            if(answer.length < 1){
-                return console.log("Project Title Required");
+        validate: function (answer) {
+            if (answer.length < 1) {
+                return console.log("A valid project title is required.");
             }
             return true;
         }
-
     },
     {
         type: 'input',
-        message: "Project Description",
+        message: "Write a description of your project.",
         name: 'description',
         default: 'Project Description',
-        validate: function (answer){
-            if (answer.length <1){
-                return console.log("Project description required");
+        validate: function (answer) {
+            if (answer.length < 1) {
+                return console.log("A valid project description is required.");
             }
             return true;
         }
     },
     {
-        type:'input',
-        message: "Installation Instructions",
+        type: 'input',
+        message: "If applicable, describe the steps required to install your project for the Installation section.",
         name: 'installation'
-
-
     },
     {
-        type:'input',
-        message:"Project Instructions / Examples of project in use",
+        type: 'input',
+        message: "Provide instructions and examples of your project in use for the Usage section.",
         name: 'usage'
     },
     {
         type: 'input',
-        message: "How can developer contribute?",
-        name:'contributing'
+        message: "If applicable, provide guidelines on how other developers can contribute to your project.",
+        name: 'contributing'
     },
     {
         type: 'input',
-        message: "Tests written for your app / examples of how to run them",
+        message: "If applicable, provide any tests written for your application and provide examples on how to run them.",
         name: 'tests'
     },
     {
         type: 'list',
-        message:"Choose a license",
-        choices: ['MSU','Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense'],
-        name:'license'
+        message: "Choose a license for your project.",
+        choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense'],
+        name: 'license'
+    },
+    {
+        type: 'input',
+        message: "Did you have any issues developing your project?",
+        name:'issues'
     }
 ];
 
-function writeToFile(fileName, data){
+function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, err => {
-        if(err){
-            return console.log(err);
+        if (err) {
+          return console.log(err);
         }
-        console.log("Success! README.me generated!")
+      
+        console.log("Success! Your README.md file has been generated")
     });
 }
 
 const writeFileAsync = util.promisify(writeToFile);
 
-async function init(){
-    try{
+
+// Main function
+async function init() {
+    try {
+
+        // Prompt Inquirer questions
         const userResponses = await inquirer.prompt(questions);
         console.log("Your responses: ", userResponses);
-        console.log("Thank you, fetching GitHub data next...");
-
+        console.log("Thank you for your responses! Fetching your GitHub data next...");
+    
+        // Call GitHub api for user info
         const userInfo = await api.getUser(userResponses);
-        console.log("GitHub user info: ", userInfo);
-
+        console.log("Your GitHub user info: ", userInfo);
+    
+        // Pass Inquirer userResponses and GitHub userInfo to generateMarkdown
         console.log("Generating your README next...")
         const markdown = generateMarkdown(userResponses, userInfo);
         console.log(markdown);
+    
+        // Write markdown to file
+        await writeFileAsync('ExampleREADME.md', markdown);
 
-        await writeFileAsync('ExampleREADMES.md', markdown);
-
-    }catch (error){
+    } catch (error) {
         console.log(error);
     }
 };
 
-init()
+init();
